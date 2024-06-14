@@ -12,7 +12,7 @@ public class Item {
     private String description;
     private String image;
     private int heartCount;
-    private int chatCount;
+    private int chatCount; // 채팅
 
     public Item(String mainCategory, String subCategory, String status, String content, String description, String image, int heartCount, int chatCount) {
         this.mainCategory = mainCategory;
